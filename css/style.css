@@ -13,15 +13,15 @@
 header{
     width: 100%;
     height: 50px;
-    background-color: grey;
     position: fixed;
     top: 0;
     left: 0;
+    background-color: lightblue;
 }
 
 img,nav{
-    line-height: 50px;
-    padding: 0px 15px;
+    border:  1px solid black;
+    
 }
 
 header img{
@@ -29,10 +29,42 @@ header img{
     margin-top: 10px;
 }
 
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    max-height: 50px;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+
 .nav-left{
     float: left;
 }
 
 .nav-right{
     float: right;
+    margin-right: 85px;
+}
+
+button{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #0061fe;
+    padding: 7px 15px;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    filter:brightness(80%);
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
 }
