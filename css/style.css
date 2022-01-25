@@ -6,39 +6,27 @@
 }
 
 .container{
-    max-height: 1080px;
-    max-width: 1920px;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 header{
     width: 100%;
-    max-height: 300px;
+    height: 50px;
     background-color: grey;
     position: fixed;
     top: 0;
     left: 0;
-    overflow: hidden;
 }
 
-header *{
-    display: inline-block;
-}
-
-header > img,nav{
-    padding: 10px 20px;
-}
-
-ul{
-    text-decoration-style: none;
-}
-
-ul *{
-    padding: 5px 15px;
-    font-size: 0.85em;
+img,nav{
+    line-height: 50px;
+    padding: 0px 15px;
 }
 
 header img{
     float: left;
+    margin-top: 10px;
 }
 
 .nav-left{
@@ -47,10 +35,4 @@ header img{
 
 .nav-right{
     float: right;
-}
-
-header::after{
-    content: "";
-    display: table;
-    clear: both;
 }
