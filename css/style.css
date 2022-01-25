@@ -60,6 +60,8 @@ li a{
     text-align: center;
     padding: 35px 20px;
     text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 
 header::after{
@@ -78,5 +80,12 @@ header .start{
 
 .page{
     background-color: #b4d0e7;
-    height: 800px;
+    margin-top: 88px;
+    height: calc(100vh - 88px);
+}
+
+.page h1{
+    font-size: 5rem;
+    margin: 0 170px;
+    padding-top: 130px;
 }
