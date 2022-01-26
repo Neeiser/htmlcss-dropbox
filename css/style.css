@@ -44,7 +44,15 @@ ul {
     float:right;
 }
 
-a{ 
+#logo{
+    vertical-align: middle;
+}
+
+li {
+    margin: 0 20px;
+}
+
+li a{ 
     display: inline-block;
     line-height: 80px;
     text-decoration: none;
