@@ -44,7 +44,8 @@ ul {
     float:right;
 }
 
-li a{
+a{ 
+    display: inline-block;
     line-height: 80px;
     text-decoration: none;
     color: black;
