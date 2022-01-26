@@ -12,13 +12,18 @@
 }
 
 .btn{
-    background-color: #0061ff;
+    background-color: #0058e6;
     border: none;
     color: white;
+    padding: 10px 15px;
 }
 
-.margin-10{
-    margin: 0 10%;
+.btn:hover{
+    background-color: #006eff;
+}
+
+.margin-5{
+    margin: 0 5%;
 }
 
 /* SEZIONE HEADER */
@@ -85,17 +90,37 @@ li a:hover{
     width: 100%;
 }
 
-.page h1{
+.page-title h1{
     font-size: 5rem;
     padding-top: 130px;
 }
 
-.page-body p{
+.page-body{
+    margin-top: 50px;
+}
+
+.page-body div{
     display: inline-block;
-    width: 30%;
     vertical-align: top;
 }
 
-.page-body img{
+.page-body-left{
+    width: 30%;
+}
+
+.page-body-left p{
+    vertical-align: top;
+}
+
+.page-body-right{
     width: 60%;
+    margin-left: 5%;
+}
+
+.page-body-right img{
+    width: 100%;
+}
+
+.page-body-left button{
+
 }
