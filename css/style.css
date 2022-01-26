@@ -218,7 +218,8 @@ span .radio:hover{
    margin-top: 50px;
 }
 
-.p2-body h3{
+.p2-body span{
+    display: block;
     border-bottom: 1px solid #d0d0d3;
     text-align: center;
     line-height: 50px;
