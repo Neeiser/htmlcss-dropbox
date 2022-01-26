@@ -307,3 +307,42 @@ hr{
 #span-exception{
     color: black;
 }
+
+/* SEZIONE TERZA PAGINA */
+
+.p3-container{
+    margin-top: 10%;
+}
+
+.p3-container div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.p3-left{
+    width: 50%;
+}
+
+.p3-left img{
+    width: 100%;
+}
+
+.p3-right{
+    width: 49%;
+}
+
+.p3-right *{
+    margin: 5% 10%;
+}
+
+.p3-right p{
+    line-height: 30px;
+}
+
+.p3-right .btn{
+    margin: 0 10%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 1.2em;
+}
