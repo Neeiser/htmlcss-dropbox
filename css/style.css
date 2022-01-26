@@ -13,7 +13,6 @@
 }
 
 .btn{
-    padding: 8px 20px;
     background-color: #0061ff;
     border: none;
     color: white;
@@ -22,29 +21,21 @@
 /* SEZIONE HEADER */
 
 header{
-    width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
-}
-
-#logo{
-    float:left;
-    padding: 30px 10px;
 }
 
 ul {
     list-style-type: none;
 }
 
-.nav-left{
+.ul-l{
     float:left;
-    margin-left: 45px;
 }
 
-.nav-right{
+.ul-r{
     float:right;
-    margin-right: 90px;
 }
 
 .ul-l li{
@@ -56,24 +47,17 @@ ul {
 }
 
 li a{
+    line-height: 50px;
     display: inline-block;
-    text-align: center;
-    padding: 35px 20px;
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
 
-header::after{
+.clearfix{
     content: "";
     display: table;
     clear: both;
-}
-
-header .start{
-    position: absolute;
-    top: 27px;
-    right: 12px;
 }
 
 /* SEZIONE PRIMA PAGINA */
