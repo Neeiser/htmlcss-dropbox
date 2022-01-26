@@ -39,6 +39,12 @@
     margin: 0 15%;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* SEZIONE HEADER */
 
 nav{
@@ -89,12 +95,6 @@ li a:hover{
     background-color: #e7e7e7;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
 /* SEZIONE PRIMA PAGINA */
 
 .p1{
@@ -115,7 +115,7 @@ li a:hover{
     position: relative;
 }
 
-.p1-body div{
+.p1-body {
     display: inline-block;
     vertical-align: top;
 }
@@ -134,8 +134,10 @@ li a:hover{
 }
 
 .p1-body-right img{
-    width: 60%;
+    width: 65%;
     position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .p1-body-left button{
@@ -292,6 +294,11 @@ hr{
     font-size: 1.1em;
 }
 
+.row-bottom .cln-body p{
+    font-weight: 700;
+    margin: 25px 0;
+}
+
 .row-bottom .cln-body {
     margin: 5% 5% 0 5%;
     min-height: 150px;
@@ -312,9 +319,11 @@ hr{
 
 .p3-container{
     margin-top: 10%;
+    vertical-align: top;
 }
 
-.p3-container div{
+.p3-left,
+.p3-right {
     display: inline-block;
     vertical-align: top;
 }
@@ -346,3 +355,36 @@ hr{
     border: 1px solid black;
     font-size: 1.2em;
 }
+
+/* SEZIONE QUARTA PAGINA */
+
+.p4-container{
+    margin-top: 100px;
+}
+
+.p4-title h2{
+    line-height: 40px;
+    font-size: 2.5em;
+}
+
+.p4-body div{
+    width: calc(100%/3 - 40px);
+    margin: 20px 20px;
+    float: left;
+}
+
+.p4-body img{
+    width: 100%;
+}
+
+.p4-body h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.p4-body p{
+    line-height: 22px;
+}
+
+/* SEZIONE QUINTA PAGINA */
+
