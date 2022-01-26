@@ -156,14 +156,12 @@ li a:hover{
 /* SEZIONE SECONDA PAGINA */
 
 .p2{
-    border: 2px solid black; /* DEBUG */
     padding: 10px;
     margin-top: 225px;
 }
 
 .p2-title{
     display: inline-block;
-    border: 1px solid red; /* DEBUG */
 }
 
 .p2-title h2{
@@ -215,7 +213,6 @@ span .radio:hover{
 
 .row-bottom{
    width: 100%;
-   height: 250px; /* DEBUG */
    border: 1px solid #d0d0d3;
    margin-top: 50px;
 }
@@ -228,14 +225,14 @@ span .radio:hover{
 }
 
 .fa-building,
-.fa-user{
+.user-title{
     padding-right: 10px;
 }
 
 .cln-body{
     margin: 10% 10% 0 10%;
     text-align: top;
-    height: 600px;
+    min-height: 800px;
 }
 
 .cln-body h3{
@@ -246,4 +243,67 @@ span .radio:hover{
 
 .cln-body span{
     display: block;
+    margin: 10% 0;
+}
+
+.cln-body .far,.fas{ 
+    padding-right: 5%; /* Distanziamento di ogni icona di FONT AWESOME*/
+}
+
+.cln-body .fa-check{
+    color: #006eff;
+}
+
+hr{
+    width: 20%;
+    margin: 40px 0;
+}
+
+/* NB: Non creo una classe o un ID per ogni span, approfitto del selettore nth*/
+.cln-body span:nth-child(2){
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.cln-body span:nth-child(3){
+    color: #707f8b;
+    margin: 5px 0;
+}
+
+.cln-body span:nth-child(4){
+    margin: 25px 0;
+}
+
+.cln-body span:nth-child(7){
+    margin: 40px 0;
+    text-align: center;
+}
+
+.cln-body span button{
+    width: 100%;
+}
+
+.cln-body span a{
+    color: #006eff;
+}
+
+.cln-body span:nth-child(10){
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.row-bottom .cln-body {
+    margin: 5% 5% 0 5%;
+    min-height: 150px;
+    position: relative;
+}
+
+.row-bottom .cln-body .btn{
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+#span-exception{
+    color: black;
 }
