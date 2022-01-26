@@ -9,7 +9,6 @@
 
 .container{
     max-width: 100vw;
-    max-height: 100vh;
 }
 
 .btn{
@@ -26,7 +25,7 @@ nav{
 }
 
 ul {
-    list-style: none;;
+    list-style-type: none;
 }
 
 .ul-l{
@@ -46,14 +45,15 @@ ul {
 }
 
 li a{
+    line-height: 80px;
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
-    display: block;
+    display: table;
     clear: both;
 }
 
