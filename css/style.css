@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -22,8 +23,20 @@
     background-color: #006eff;
 }
 
-.margin-5{
-    margin: 0 5%;
+.btn:active{
+    filter: brightness(70%);
+}
+
+.page {
+    width: 100%;
+}
+
+.margin-10{
+    margin: 0 10%;
+}
+
+.margin-15{
+    margin: 0 15%;
 }
 
 /* SEZIONE HEADER */
@@ -45,15 +58,14 @@ ul {
 }
 
 .ul-l li{
-    float:left;
+    display: inline-block;
 }
 
 .ul-r li{
-    float:right;
+    display: inline-block;
 }
 
 #logo{
-    line-height: calc(80px - 5px);
     vertical-align: middle;
 }
 
@@ -85,18 +97,22 @@ li a:hover{
 
 /* SEZIONE PRIMA PAGINA */
 
-.page{
+.p1{
     background-color: #b4d0e7;
-    width: 100%;
+}
+
+.page-title{
+    padding-top: 100px;
 }
 
 .page-title h1{
     font-size: 5rem;
-    padding-top: 130px;
 }
 
 .page-body{
     margin-top: 50px;
+    padding-bottom: 80px;
+    position: relative;
 }
 
 .page-body div{
@@ -110,17 +126,41 @@ li a:hover{
 
 .page-body-left p{
     vertical-align: top;
+    line-height: 20px;
 }
 
 .page-body-right{
-    width: 60%;
     margin-left: 5%;
 }
 
 .page-body-right img{
-    width: 100%;
+    width: 60%;
+    position: absolute;
 }
 
 .page-body-left button{
+    font-size: 1.2em;
+    margin: 6% 0;
+}
 
+.page-body-left span{
+    display: block;
+}
+
+.page-body-left .fas{
+    margin-top: 10%;
+    color: black;
+    font-size: 3em;
+}
+
+/* SEZIONE SECONDA PAGINA */
+
+.p2 .page-title{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.page-title h2{
+    font-size: 2.5rem;
+    margin-top: 50px;
 }
