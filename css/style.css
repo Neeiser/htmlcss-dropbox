@@ -386,5 +386,20 @@ hr{
     line-height: 22px;
 }
 
-/* SEZIONE QUINTA PAGINA */
+/* SEZIONE QUINTA PAGINA - PICCOLINA */
 
+.mini-p5-container{
+    margin: 5% 0;
+    margin-left: 16%;
+}
+
+.mini-p5-container h2{
+    line-height: 40px;
+    font-size: 2.5em;
+}
+
+.mini-p5-container a{
+    display: block;
+    margin-top: 2%;
+    color: #0058e6;
+}
