@@ -17,11 +17,14 @@
     color: white;
 }
 
+.margin-10{
+    margin: 0 10%;
+}
+
 /* SEZIONE HEADER */
 
 nav{
     width: 100%;
-    background-color: lightcoral;
 }
 
 ul {
@@ -49,6 +52,10 @@ ul {
     vertical-align: middle;
 }
 
+#logo:hover{
+    background-color: white;
+}
+
 li {
     margin: 0 20px;
 }
@@ -62,7 +69,7 @@ li a{
 }
 
 li a:hover{
-
+    background-color: #e7e7e7;
 }
 
 .clearfix::after{
@@ -75,10 +82,20 @@ li a:hover{
 
 .page{
     background-color: #b4d0e7;
-    height: 600px; /* DEBUG */
+    width: 100%;
 }
 
 .page h1{
     font-size: 5rem;
     padding-top: 130px;
+}
+
+.page-body p{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.page-body img{
+    width: 60%;
 }
