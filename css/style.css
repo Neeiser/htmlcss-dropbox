@@ -155,12 +155,40 @@ li a:hover{
 
 /* SEZIONE SECONDA PAGINA */
 
+
+.p2{
+    height: 800px; /* DEBUG */
+    border: 2px solid black; /* DEBUG */
+}
+
 .p2 .page-title{
-    border: 2px solid black;
+    border: 2px solid black; /* DEBUG */
     padding: 10px;
+    margin-top: 225px;
 }
 
 .page-title h2{
     font-size: 2.5rem;
+}
+
+.page-title span{
+    display: inline-block;
     margin-top: 50px;
+    padding-right: 5%;
+}
+
+span .radio{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: text-bottom;
+}
+
+.r1{
+    border: 5px solid #006eff;
+}
+
+.r2{
+    border: 1px solid #575757b4;
 }
