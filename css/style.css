@@ -101,53 +101,53 @@ li a:hover{
     background-color: #b4d0e7;
 }
 
-.page-title{
+.p1-title{
     padding-top: 100px;
 }
 
-.page-title h1{
+.p1-title h1{
     font-size: 5rem;
 }
 
-.page-body{
+.p1-body{
     margin-top: 50px;
     padding-bottom: 80px;
     position: relative;
 }
 
-.page-body div{
+.p1-body div{
     display: inline-block;
     vertical-align: top;
 }
 
-.page-body-left{
+.p1-body-left{
     width: 30%;
 }
 
-.page-body-left p{
+.p1-body-left p{
     vertical-align: top;
     line-height: 20px;
 }
 
-.page-body-right{
+.p1-body-right{
     margin-left: 5%;
 }
 
-.page-body-right img{
+.p1-body-right img{
     width: 60%;
     position: absolute;
 }
 
-.page-body-left button{
+.p1-body-left button{
     font-size: 1.2em;
     margin: 6% 0;
 }
 
-.page-body-left span{
+.p1-body-left span{
     display: block;
 }
 
-.page-body-left .fas{
+.p1-body-left .fas{
     margin-top: 10%;
     color: black;
     font-size: 3em;
@@ -155,23 +155,22 @@ li a:hover{
 
 /* SEZIONE SECONDA PAGINA */
 
-
 .p2{
-    height: 800px; /* DEBUG */
-    border: 2px solid black; /* DEBUG */
-}
-
-.p2 .page-title{
     border: 2px solid black; /* DEBUG */
     padding: 10px;
     margin-top: 225px;
 }
 
-.page-title h2{
+.p2-title{
+    display: inline-block;
+    border: 1px solid red; /* DEBUG */
+}
+
+.p2-title h2{
     font-size: 2.5rem;
 }
 
-.page-title span{
+.p2-title span{
     display: inline-block;
     margin-top: 50px;
     padding-right: 5%;
@@ -185,10 +184,47 @@ span .radio{
     vertical-align: text-bottom;
 }
 
+span .radio:hover{
+    cursor: pointer;
+}
+
 .r1{
     border: 5px solid #006eff;
 }
 
 .r2{
     border: 1px solid #575757b4;
+}
+
+.p2-body{
+    margin-top: 50px;
+}
+
+.column {
+    display: inline-block;
+    width: calc(100%/3 - 36.3px);
+    height: 800px; /* DEBUG */
+    border: 1px solid #d0d0d3; /* DEBUG */
+}
+
+.cln-middle{
+    margin: 0 50px;
+}
+
+.row-bottom{
+   width: 100%;
+   height: 200px; /* DEBUG */
+   border: 1px solid #d0d0d3;
+   margin-top: 50px;
+}
+
+.p2-body h3{
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    line-height: 50px;
+}
+
+.fa-building,
+.fa-user{
+    padding-right: 10px;
 }
