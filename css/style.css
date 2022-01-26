@@ -196,15 +196,16 @@ span .radio:hover{
     border: 1px solid #575757b4;
 }
 
+/* SEZIONE SECONDA PAGINA - COLONNE*/
+
 .p2-body{
     margin-top: 50px;
 }
 
 .column {
     display: inline-block;
-    width: calc(100%/3 - 36.3px);
-    height: 800px; /* DEBUG */
-    border: 1px solid #d0d0d3; /* DEBUG */
+    width: calc(100%/3 - 36.3px); 
+    border: 1px solid #d0d0d3; 
 }
 
 .cln-middle{
@@ -218,7 +219,7 @@ span .radio:hover{
    margin-top: 50px;
 }
 
-.p2-body span{
+.p2-body .cln-title{
     display: block;
     border-bottom: 1px solid #d0d0d3;
     text-align: center;
@@ -228,4 +229,19 @@ span .radio:hover{
 .fa-building,
 .fa-user{
     padding-right: 10px;
+}
+
+.cln-body{
+    margin: 10% 10% 0 10%;
+    text-align: top;
+}
+
+.cln-body h3{
+    font-size: 1.5em;
+}
+
+/* SEZIONE SECONDA PAGINA - PERSONALIZZAZIONE SPAN COLONNE*/
+
+.cln-body span{
+    display: block;
 }
