@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;;
 }
 
 .container{
@@ -247,7 +247,7 @@ span .radio:hover{
     color: #006eff;
 }
 
-hr{
+.cln-body hr{
     width: 20%;
     margin: 40px 0;
 }
@@ -401,6 +401,12 @@ hr{
     width: 100%;
 }
 
+.p6-left,
+.p6-middle,
+.p6-right{
+    width: calc(100%/3 - 3px);
+}
+
 .svg{
     display: inline-block;
     height: 16vw;
@@ -416,12 +422,10 @@ hr{
 
 .p6-left{
     display: inline-block;
-    width: 33%;
 }
 
 .p6-middle{
     display: inline-block;
-    width: 33%;
     background-color: #f5f5f5;
     vertical-align: top;
     padding: 2em 1em;
@@ -442,7 +446,6 @@ hr{
 
 .p6-right{
     display: inline-block;
-    width: 33%;
 }
 
 /* PERSONALIZZAZIONE SVG SINGOLE */
@@ -478,4 +481,50 @@ hr{
 
 .clearc{
     background-color: #af951f;
+}
+
+/* SEZIONE SETTIMA PAGINA */
+
+.p7 {
+    background-color: #b4d0e7;
+}
+
+.p7-body h2{
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 150px 0;
+    padding-right: 150px;
+    color: #61082b;
+}
+
+.p7-body button{
+    display: inline-block;
+    vertical-align: 80px;
+    background-color: white;
+    border: none;
+    padding: 1em 5em;
+    font-weight: 600;
+}
+
+.p7-body button:hover{
+    background-color: #dfdfdf;
+}
+
+.p7-body button:active{
+    filter: brightness(70%);
+}
+
+/* SEZIONE OTTAVA PAGINA */
+
+.p8-body{
+    height: 800px;
+}
+
+.p8-title{
+    font-size: 1.5em;
+}
+
+.p8 hr{
+    width: 100%;
+    margin: 50px 0;
 }
