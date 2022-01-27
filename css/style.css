@@ -48,8 +48,8 @@
 /* SEZIONE HEADER */
 
 nav{
-    min-width: 1140px;
-    min-height: 83px;
+    min-width: 1180px;
+    min-height: 80px;
 }
 
 ul {
@@ -84,6 +84,17 @@ header a:hover{
 #logo:hover{
     background-color: white;
     border-bottom: none;
+}
+
+.start{
+    line-height: 40px;
+}
+
+#start{
+    background-color: #006eff;
+    padding: 0 20px;
+    color: white;
+
 }
 
 /* SEZIONE PRIMA PAGINA */
