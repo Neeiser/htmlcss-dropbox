@@ -49,7 +49,7 @@
 
 nav{
     min-width: 1180px;
-    min-height: 80px;
+    min-height: 83px;
 }
 
 ul {
@@ -94,7 +94,15 @@ header a:hover{
     background-color: #006eff;
     padding: 0 20px;
     color: white;
+}
 
+#start:hover{
+    background-color: #2684ff;
+    border: none;
+}
+
+#start:active{
+    filter: brightness(70%);
 }
 
 /* SEZIONE PRIMA PAGINA */
@@ -234,8 +242,7 @@ span .radio:hover{
 }
 
 .cln-body{
-    margin: 10% 10% 0 10%;
-    text-align: top;
+    margin: 10% 10% 0 15%;
     min-height: 800px;
 }
 
@@ -264,6 +271,11 @@ span .radio:hover{
 }
 
 /* NB: Non creo una classe o un ID per ogni span, approfitto del selettore nth*/
+
+.cln-body i{
+    margin-left: -30px;
+}
+
 .cln-body span:nth-child(2){
     font-weight: 700;
     margin: 25px 0;
@@ -276,11 +288,6 @@ span .radio:hover{
 
 .cln-body span:nth-child(4){
     margin: 25px 0;
-}
-
-.cln-body span:nth-child(7){
-    margin: 40px 0;
-    text-align: center;
 }
 
 .cln-body span button{
