@@ -70,14 +70,14 @@ nav li{
     line-height: 80px;
 }
 
-li a{ 
+header a{ 
     display: inline-block;
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
 
-li a:hover{
+header a:hover{
     border-bottom: 3px solid lightgray;
 }
 
@@ -567,12 +567,46 @@ span .radio:hover{
 }
 
 footer{
-    margin: 0 80px;
+    padding: 8% 0 0 10%;
     width: 100%;
     color: white;
 }
 
 .footer-content{
+    vertical-align: top;
     display:inline-block;
     width: calc(100%/5 - 80px);
+    margin-right: 2%;
+}
+
+.footer-content ul{
+    margin-top: 10%;
+}
+
+.footer-content li{
+    line-height: 1.5em;
+}
+
+.footer-content a{
+    color: white;
+    margin-top: 5%;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    padding-top: 7em;
+}
+
+.footer-bottom hr{
+    width: 10%;
+}
+
+.footer-bottom span{
+    display: block;
+    padding-top: 2em;
+}
+
+.footer-bottom .fas{
+    padding-right: 1em;
 }
