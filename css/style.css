@@ -302,7 +302,14 @@ span .radio:hover{
     right: 0;
 }
 
-#span-exception{
+/* 2 ID per sovrascrivere gli nth dati sopra  */
+
+#span-exception1{
+    font-weight: 700; 
+    color: black;
+}
+
+#span-exception2{
     color: black;
 }
 
@@ -600,13 +607,25 @@ footer{
 
 .footer-bottom hr{
     width: 10%;
+    padding-bottom: 2em;
+    border: none;
+    border-top: 1px solid white;
 }
 
 .footer-bottom span{
-    display: block;
+    display: inline-block;
     padding-top: 2em;
+    padding: 0 1em;
 }
 
-.footer-bottom .fas{
-    padding-right: 1em;
+.footer-bottom .fa-globe-americas{
+    padding: 0;
+}
+
+.footer-bottom .fa-sort-up{
+    vertical-align: middle;
+}
+
+.footer-bottom a{
+    color:white;
 }
