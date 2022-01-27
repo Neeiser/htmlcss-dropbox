@@ -521,10 +521,58 @@ span .radio:hover{
 }
 
 .p8-title{
-    font-size: 1.5em;
+    margin-top: 10%;
+}
+
+.p8-title h2{
+    font-size: 2em;
+}
+
+.p8-main{
+    width: 100%;
+}
+
+.p8-main h3{
+    display: inline-block;
+}
+
+.p8-main .fas{
+    float: right;
+    padding:0;
+}
+
+.p8-main .fas:hover{
+    cursor: pointer;
 }
 
 .p8 hr{
     width: 100%;
     margin: 50px 0;
+}
+
+.s8-main .p-hid{
+    margin-top: 20px;
+    display: none;
+}
+
+.s8-main:hover .p-hid{
+    display: block;
+}
+
+/* SEZIONE FOOTER PAGINA */
+
+.footer-container{
+    height: 500px;
+    background-color: black;
+}
+
+footer{
+    margin: 0 80px;
+    width: 100%;
+    color: white;
+}
+
+.footer-content{
+    display:inline-block;
+    width: calc(100%/5 - 80px);
 }
