@@ -48,7 +48,8 @@
 /* SEZIONE HEADER */
 
 nav{
-    width: 100%;
+    min-width: 1140px;
+    min-height: 83px;
 }
 
 ul {
@@ -63,36 +64,26 @@ ul {
     float:right;
 }
 
-.ul-l li{
+nav li{
     display: inline-block;
-}
-
-.ul-r li{
-    display: inline-block;
-}
-
-#logo{
-    vertical-align: middle;
-}
-
-#logo:hover{
-    background-color: white;
-}
-
-li {
     margin: 0 20px;
+    line-height: 80px;
 }
 
 li a{ 
     display: inline-block;
-    line-height: 80px;
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
 
 li a:hover{
-    background-color: #e7e7e7;
+    border-bottom: 3px solid lightgray;
+}
+
+#logo:hover{
+    background-color: white;
+    border-bottom: none;
 }
 
 /* SEZIONE PRIMA PAGINA */
@@ -405,3 +396,31 @@ hr{
 }
 
 /* SEZIONE SESTA PAGINA */
+
+.p6-left{
+    display: inline-block;
+    float: left;
+    width: 35%;
+}
+
+.svg{
+    display: inline-block;
+    height: 10vw;
+    width: 10vw;
+    border: 1px solid black;
+    padding: 35px;
+    box-sizing: content-box;
+}
+
+.svg img{
+    height: 10vw;
+    width: 10vw;
+}
+
+.p6-middle{
+    
+}
+
+.p6-middle img{
+    width: 100px;
+}
