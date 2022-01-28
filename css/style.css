@@ -94,11 +94,8 @@ header a:hover{
     border-bottom: none;
 }
 
-.start{
-    line-height: 40px;
-}
-
 #start{
+    line-height: 40px;
     background-color: #006eff;
     padding: 0 20px;
     color: white;
