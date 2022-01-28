@@ -47,6 +47,10 @@
 
 /* SEZIONE HEADER */
 
+header{
+    position: fixed;
+}
+
 nav{
     min-width: 1180px;
     min-height: 83px;
