@@ -49,6 +49,7 @@
 
 header{
     position: fixed;
+    top:0;
 }
 
 nav{
